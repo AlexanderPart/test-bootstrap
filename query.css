@@ -1,0 +1,100 @@
+@media (max-width: 1200px) {
+    
+    header {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 699px) {
+
+/************ HEADER ************/
+
+    header {
+        width: 100%;
+        justify-content: end;
+    }
+    
+    header nav {
+        display: none;
+        position: absolute;
+        top: 0;
+        text-align: center;
+        background: black;
+        width: 100%;
+    }
+
+    nav ul {
+        padding-top: 45px;
+        margin-right: 30px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+    
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    /************ MAIN ************/
+    /************ section home ************/
+
+
+    #home h1 {
+        font-size: 3rem;
+    }
+
+    .modal {
+        margin-top: 70px;
+    }
+
+    /************ section focus ************/
+    
+    .focus-img img {
+        display: none;
+    }
+
+    /************ section contact ************/
+
+    .simple-menu {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-menu ul {
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 700px) {
+    header nav {
+        display: block !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /************ MAIN ************/
+    /************ section contact ************/
+
+    .contact-box {
+        height: 350px;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: -50px;
+    }
+
+    .box-items-web {
+        height: 50px;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        align-items: start;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+}
